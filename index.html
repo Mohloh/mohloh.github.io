@@ -11,9 +11,7 @@
 
     <link href="assets/img/favicon.png" rel="icon">
 
-    <link
-        href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway|Poppins|Pacifico"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Outfit" rel="stylesheet">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
@@ -22,21 +20,30 @@
 </head>
 
 <body>
-
     <header id="header">
-        <div class="container d-flex align-items-center justify-content-between">
-            <div class="logo">
-                <h1><a href="index.html">Mohloh</a></h1>
-                <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand fs-2" href="index.html">Mohloh</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link scrollto active fs-6" href="#hero">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link scrollto fs-6" href="#features">App Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link scrollto fs-6" href="#footer">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <nav id="navbar" class="navbar">
-                <ul>
-                    <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-                    <li><a class="nav-link scrollto" href="#features">App Features</a></li>
-                    <li><a class="nav-link scrollto" href="#footer">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
+        </nav>
     </header>
 
     <section id="hero" class="d-flex align-items-center">
@@ -101,13 +108,11 @@
         <div class="footer-top">
             <div class="container">
                 <div class="row">
-
                     <div class="col-lg-3 col-md-6 footer-contact">
                         <h3>Mohloh</h3>
                         <p>
-                            625 East University<br>
-                            Ave Apt 15, Las Cruces<br> 
-                            NM, USA, 88005<br>
+                            Las Cruces,<br>
+                            NM, USA<br>
                             <strong>Phone:</strong> +1 (505) 730-3973<br>
                             <strong>Email:</strong> upstartmohloh@gmail.com<br>
                         </p>
@@ -119,7 +124,7 @@
                             <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
                             <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
                             <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="privacy-policy.html">Privacy policy</a></li>
                         </ul>
                     </div>
 
@@ -144,7 +149,7 @@
             </div>
         </div>
     </footer>
-    
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
         crossorigin="anonymous"></script>
